@@ -9,7 +9,7 @@ function validatename() {
         nameerr.innerHTML="Please enter your username"
     }
     else {
-        nameerr.innerHTML= "Please continue"
+        nameerr.innerHTML= "<p> Please continue </p>"
         return true
     }
 }
@@ -24,7 +24,7 @@ function validateemail(){
         emailerr.innerHTML="Please provide a valid email"
         return  false
     }
-    emailerr.innerHTML=" Please continue"
+    emailerr.innerHTML="<p> Please continue </p>"
     return true
 }
 
@@ -38,7 +38,7 @@ function validatepassword() {
         passworderr.innerHTML="password must be stronger"
         return false
     }
-    passworderr.innerHTML="Please continue"
+    passworderr.innerHTML="<p> Please continue </p>"
     return true
 }
 
